@@ -1,20 +1,28 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Thayara's Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile-sass": "sass scss:assets/css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thayarasiqueira/thayarasiqueira.github.io.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Thayara Siqueira",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thayarasiqueira/thayarasiqueira.github.io/issues"
   },
-  "homepage": "https://github.com/thayarasiqueira/thayarasiqueira.github.io#readme"
+  "homepage": "https://github.com/thayarasiqueira/thayarasiqueira.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.54.9"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "autoprefixer": "^10.4.8",
+    "bootstrap": "^5.2.1"
+  }
 }

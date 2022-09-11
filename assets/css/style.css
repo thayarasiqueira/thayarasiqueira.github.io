@@ -10816,7 +10816,8 @@ textarea.form-control-lg {
 main {
   background: linear-gradient(to right, rgba(116, 8, 198, 0.95), rgba(215, 43, 235, 0.95));
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 main img {
   height: 50%;
@@ -10827,6 +10828,33 @@ main img {
     height: 100%;
     width: 100%;
   }
+}
+
+.technologies {
+  background-color: #fff;
+}
+.technologies img {
+  margin-bottom: 2rem;
+}
+
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  background-color: #7408c6;
+  margin: 0 auto;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.2rem;
+  display: block;
+  padding-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #7408c6;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

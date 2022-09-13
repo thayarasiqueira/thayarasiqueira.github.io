@@ -1,17 +1,24 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
-main {
+// main {
+//     @include gradient;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     img {
+//         height: 50%;
+//         width: 50%;
+//         @include media-breakpoint-down(sm) {
+//             height: 100%;
+//             width: 100%;
+//         }
+//     }
+// }
+
+.intro-section {
     @include gradient;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    img {
-        height: 50%;
-        width: 50%;
-        @include media-breakpoint-down(sm) {
-            height: 100%;
-            width: 100%;
-        }
-    }
+    padding: 10rem 0 0 0;
+    width: 100%;
+    height: 100%;
 }

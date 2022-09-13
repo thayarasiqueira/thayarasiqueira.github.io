@@ -10801,6 +10801,83 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.display-2 {
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  transition-duration: 5s;
+  transition-property: all;
+}
+.display-2--description {
+  font-size: 1rem;
+  display: block;
+  margin-top: 1.2rem;
+}
+@media (min-width: 992px) {
+  .display-2--description {
+    font-size: 1.4rem;
+    display: inline-block;
+  }
+}
+
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #6007a4;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #6007a4;
+}
+
+.display-3 {
+  font-family: "Poppins", sans-serif;
+}
+.display-3--title {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to right, #6007a4, #466ff3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
+}
+
+.border-right {
+  border-right: 0;
+}
+@media (min-width: 576px) {
+  .border-right {
+    border-right: 0.1rem solid #dee2e6;
+    height: 100%;
+  }
+}
+
+.gradient {
+  background: linear-gradient(to right, rgba(96, 7, 164, 0.95), rgba(70, 111, 243, 0.95));
+}
+
 .menu {
   background: linear-gradient(to right, rgba(96, 7, 164, 0.95), rgba(70, 111, 243, 0.95));
 }
@@ -10816,21 +10893,11 @@ textarea.form-control-lg {
   transform: scale(1.2);
 }
 
-main {
+.intro-section {
   background: linear-gradient(to right, rgba(96, 7, 164, 0.95), rgba(70, 111, 243, 0.95));
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-main img {
-  height: 50%;
-  width: 50%;
-}
-@media (max-width: 575.98px) {
-  main img {
-    height: 100%;
-    width: 100%;
-  }
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
 }
 
 .technologies {
@@ -10893,13 +10960,13 @@ main img {
 .projects-box:hover .projects-info {
   opacity: 1;
   visibility: visible;
-  transition-duration: 1000ms;
+  transition-duration: 1s;
   transition-property: all;
 }
 .projects-box:active .projects-info {
   opacity: 1;
   visibility: visible;
-  transition-duration: 1000ms;
+  transition-duration: 1s;
   transition-property: all;
 }
 

@@ -10864,16 +10864,6 @@ textarea.form-control-lg {
   }
 }
 
-.border-right {
-  border-right: 0;
-}
-@media (min-width: 576px) {
-  .border-right {
-    border-right: 0.1rem solid #dee2e6;
-    height: 100%;
-  }
-}
-
 .gradient {
   background: linear-gradient(to right, rgba(96, 7, 164, 0.95), rgba(70, 111, 243, 0.95));
 }

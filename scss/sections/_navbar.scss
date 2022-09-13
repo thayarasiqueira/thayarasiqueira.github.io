@@ -11,5 +11,8 @@
             color: $white !important;
             font-weight: 600;
         }
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 }

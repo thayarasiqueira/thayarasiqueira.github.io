@@ -3,7 +3,12 @@
 
 .btn-rounded {
     @include media-breakpoint-down(sm) {
-        display: none;
+        padding: 0.8375rem 3.375rem 0.8375rem .25rem;
+        @include gradient;
+        color: $white;
+        &:active {
+            transform: scale(1.1);
+        }
     }
     position: relative;
     padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
@@ -42,7 +47,8 @@
 .btn-lang {
     color:$white;
     background-color: transparent;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: medium;
     margin-left: 2rem;
     @include media-breakpoint-down(sm) {
         margin-left: 70%;

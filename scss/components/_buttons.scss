@@ -38,3 +38,19 @@
         }
     }
 }
+
+.btn-lang {
+    color:$white;
+    background-color: transparent;
+    font-weight: 500;
+    margin-left: 2rem;
+    @include media-breakpoint-down(sm) {
+        margin-left: 70%;
+    }
+    &:hover {
+        @include gradient;
+    }
+    option{
+        background-color: $primary;
+    }
+}

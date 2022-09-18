@@ -12,10 +12,8 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
-    <select class="btn-lang lead">
-      <option value="english">English</option>
-      <option value="português">Português</option>
-    </select>
+      <button class="btn-lang" type="button" value="english" id="english">English</button>
+      <button class="btn-lang" type="button" value="português" id="portugues">Português</button>
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,16 +23,16 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#about" id="about-me">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#projects" id="projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#contact" id="contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -45,13 +43,13 @@
       <div class="row align-items-center text-white">
         <div class="col-md-6 intros text-start">
           <h1 class="display-2">
-            <span class="display-2--intro">Hey! I'm Thayara</span>
-            <span class="display-2--description lh-base">
+            <span class="display-2--intro" id="intro">Hey! I'm Thayara</span>
+            <span class="display-2--description lh-base" id="description">
               I am a web developer who is passionate about how technology shapes everything around us, and I'm glad to
               be a small part of it.
             </span>
           </h1>
-          <button type="button" class="rounded-pill btn-rounded mb-5 mt-3">Get in Touch
+          <button type="button" class="rounded-pill btn-rounded mb-5 mt-3" id="btn1">Get in Touch
             <span><i class="fas fa-arrow-right"></i></span>
           </button>
         </div>
@@ -66,13 +64,13 @@
   <section>
     <div class="container mt-3">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold">About me</h1>
+        <h1 class="display-3 fw-bold" id="about-me-title">About me</h1>
         <div class="heading-line mb-1"></div>
       </div>
       <div class="row text-center pt-2 pb-2 mt-0 mb-3">
         <div class="col-md-6 border-right">
-          <div class="bg-white p-3">
-            <p id="about" class="lead mt-4">
+          <div id="about" class="bg-white p-3">
+            <p class="lead mt-4" id="about-description">
               Lorem ipsum dolor sit amet consectetur architecto magni,
               dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias.
               Tempore ducimus molestiae in dolore enim.
@@ -92,7 +90,7 @@
           <section id="technologies" class="technologies">
             <div class="container">
               <div class="row text-center">
-                <h3 class="lead mb-3 mt-3">Technologies</h3>
+                <h3 class="lead mb-3 mt-3" id="technologies-title">Technologies</h3>
                 <div class="container">
                   <div class="row">
                     <div>
@@ -137,9 +135,9 @@
     <section id="projects" class="projects" id="projects">
       <div class="container">
         <div class="row text-center mt-5">
-          <h1 class="display-3 fw-bold text-capitalize">Projects</h1>
+          <h1 class="display-3 fw-bold text-capitalize" id="projects-title">Projects</h1>
           <div class="heading-line mb-5"></div>
-          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam obcaecati? Ab cumque
+          <p class="lead" id="projects-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam obcaecati? Ab cumque
             velit odio mollitia, dolorem eveniet rerum voluptatibus. Nostrum quis sapiente nesciunt vero voluptate
             ducimus optio, temporibus atque!</p>
         </div>
@@ -261,7 +259,7 @@
               </svg>
             </div>
             <div class="contact-box__info">
-              <a href="#contact" class="contact-box__info--title">Poços de Caldas - MG, Brazil</a>
+              <a href="#contact" class="contact-box__info--title" id="address">Poços de Caldas - MG, Brazil</a>
             </div>
           </div>
         </div>
@@ -269,7 +267,7 @@
       <div class="footer-sm" style="background-color: #212121;">
         <div class="container">
           <div class="row py-4 text-center text-white">
-            <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+            <div class="col-lg-5 col-md-6 mb-4 mb-md-0" id="social">
               Find me on Social Media
             </div>
             <div class="col-lg-7 col-md-6">
@@ -296,9 +294,7 @@
     </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

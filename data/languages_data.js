@@ -29,7 +29,7 @@ module.exports =  {
         projectsTitle: "Projetos",
         projectsDescription: "",
         address: "Poços de Caldas - MG, Brasil",
-        social: "",
+        social: "Conecte-se comigo",
     },
 
 };

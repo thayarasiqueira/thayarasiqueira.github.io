@@ -10811,18 +10811,18 @@ textarea.form-control-lg {
   background-color: transparent;
   font-weight: 400;
   font-size: medium;
-  margin-left: 2rem;
+  margin-left: 0.5rem;
+  border-radius: 0.8rem;
 }
 @media (max-width: 575.98px) {
   .btn-lang {
     margin-left: 70%;
+    width: 6rem;
+    margin-top: 0.5rem;
   }
 }
 .btn-lang:hover {
   background: linear-gradient(to right, rgba(147, 29, 237, 0.95), rgba(204, 34, 223, 0.4));
-}
-.btn-lang option {
-  background-color: #931ded;
 }
 
 .display-2 {

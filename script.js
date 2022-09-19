@@ -20,7 +20,7 @@ const data =  {
         about: "Sobre",
         projects: "Projetos",
         contact: "Contato",
-        intro: "Hey! Meu nome é Thayara",
+        intro: "Olá! Meu nome é Thayara",
         description: "Sou uma Desenvolvedora Web fascinada por como a tecnlogia molda tudo a nossa volta.",
         btn1:  "Entre em contato<span><i class=\"fas fa-arrow-right\"></i></span>",
         aboutme: "Sobre mim",

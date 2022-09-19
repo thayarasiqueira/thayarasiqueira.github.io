@@ -43,20 +43,3 @@
         }
     }
 }
-
-.btn-lang {
-    color:$white;
-    background-color: transparent;
-    font-weight: 400;
-    font-size: medium;
-    margin-left: 0.5rem;
-    border-radius: 0.8rem;
-    @include media-breakpoint-down(sm) {
-        margin-left: 70%;
-        width: 6rem;
-        margin-top: 0.5rem;
-    }
-    &:hover {
-        @include gradient;
-    }
-}

@@ -7,6 +7,7 @@ const data =  {
         intro: "Hey! I'm Thayara",
         description: "I am a web developer who is passionate about how technology shapes everything around us, and I'm glad to be a small part of it.",
         btn1: "Get in Touch<span><i class=\"fas fa-arrow-right\"></i></span>",
+        formBtn: "Enviar",
         aboutMe: "About me",
         aboutDescription: `The first thing I would mention about myself is that I believe my intense curiosity has taken me to many places. This is how I studied and experienced different subjects such as: martial arts, music, body awareness, metalearning, magic cubes, and technology. This is also how I started playing the violin in a social project at the age of 13, and quickly won several scholarships and opportunities that took me from the countryside of Minas Gerais to a bachelor's degree in violin at University of São Paulo (being the first person in my family to enter a university), to a festival in Italy, and to a Master's Degree with a 100% scholarship plus a monthly allowance in Canada.
         While living in Canada during the pandemic, I opened an online music school with twelve other teachers, where I had created a new method of asynchronous lessons with more frequent and shorter interactions. That was when I started to investigate tools and study about technologies. My first contact with programming was love at first sight! It seemed like something that united all my curiosities and search for challenging stimuli in one place. 
@@ -27,6 +28,7 @@ const data =  {
         intro: "Olá! Meu nome é Thayara",
         description: "Sou uma Desenvolvedora Web fascinada por como a tecnologia molda tudo a nossa volta.",
         btn1:  "Entre em contato<span><i class=\"fas fa-arrow-right\"></i></span>",
+        formBtn: "Enviar",
         aboutme: "Sobre mim",
         aboutDescription: `A primeira coisa que eu mencionaria sobre mim é que eu acredito que a minha curiosidade intensa me levou a muitos lugares. Foi assim que estudei e vivenciei temas distintos como: artes marciais, música, consciência corporal, metalearning, cubos mágicos e tecnologia. Também foi assim que começando a tocar violino em um projeto social com 13 anos, rapidamente conquistei diversas bolsas e oportunidades que me levaram do interior de MG a um bacharel em violino na USP (sendo a primeira pessoa da minha família a ingressar em uma universidade), a um festival na Itália e a um mestrado com bolsa prêmio 100% mais ajuda de custo mensal no Canadá.
         Enquanto morava no Canadá, durante a pandemia, abri uma escola de música online com mais doze professores, onde havia criado um método novo de aulas assíncronas com interações mais frequentes e mais curtas. Foi quando comecei a investigar ferramentas e estudar sobre tecnologias. No meu primeiro contato com programação, foi amor à primeira vista!Parecia algo que unia todas as minhas curiosidades e busca por estímulos desafiadores em um lugar só. 
@@ -51,6 +53,7 @@ const contact = document.querySelector('#contact-nav');
 const intro = document.querySelector('#intro');
 const description = document.querySelector('#description');
 const btn1 = document.querySelector('#btn1');
+const formBtn = document.querySelector('#form-btn');
 const aboutMe = document.querySelector('#about-me-title');
 const aboutDescription = document.querySelector('#about-description');
 const tests = document.querySelector('#tests');
@@ -59,24 +62,32 @@ const projectsTitle = document.querySelector('#projects-title');
 const projectsDescription = document.querySelector('#projects-description');
 const address = document.querySelector('#address');
 const social = document.querySelector('#social');
+const form = document.querySelector('#form');
 
 const { pt, en } = data;
 const textInEn = Object.values(en);
 const textInPt = Object.values(pt);
-const sections = [ home, about, projects, contact, intro, description, btn1, aboutMe, aboutDescription, tests, technologiesTitle, projectsTitle, projectsDescription, address, social ]
+const sections = [ home, about, projects, contact, intro, description, btn1, formBtn, aboutMe, aboutDescription, tests, technologiesTitle, projectsTitle, projectsDescription, address, social ]
 
 const changeLanguage = (arrayValues) => {
     sections.forEach((e, index) => e === btn1 ? e.innerHTML = arrayValues[index] : e.innerText = arrayValues[index]);
 };
 
 const checkLanguage = () => {
-    englishBtn.addEventListener('click', (ev) => {
+    englishBtn.addEventListener('click', () => {
             changeLanguage(textInEn);
         });
-    portuguesBtn.addEventListener('click', (ev) => {
+    portuguesBtn.addEventListener('click', () => {
             changeLanguage(textInPt);
         });
 }
 
 checkLanguage();
 
+const emailForm = () => {
+    btn1.addEventListener('click', () => {
+        form.style.display = 'flex';
+    })
+}
+
+emailForm();

@@ -10907,6 +10907,14 @@ textarea.form-control-lg {
   transform: scale(1.2);
 }
 
+.container-lang {
+  display: flex;
+  color: white;
+  margin: 2rem 0rem 1rem 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(147, 29, 237, 0.95), rgba(204, 34, 223, 0.4));
   padding: 10rem 0 0 0;

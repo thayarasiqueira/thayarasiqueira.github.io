@@ -8,34 +8,37 @@
   <title>Thayara Siqueira</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
-      <button class="btn-lang" type="button" value="english" id="english">English</button>
-      <button class="btn-lang" type="button" value="português" id="portugues">Português</button>
     <div class="container">
+      <div class="container-lang">
+        <a value="english" id="english">English</a>
+        <p>|</p>
+        <a value="português" id="portugues">Português</a>
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
       </button>
-    </div>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about" id="about-me">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects" id="projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact" id="contact">Contact</a>
-        </li>
-      </ul>
-    </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about" id="about-me">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" id="projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" id="contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
   <section id="home" class="intro-section">
@@ -71,18 +74,10 @@
         <div class="col-md-6 border-right">
           <div id="about" class="bg-white p-3">
             <p class="lead mt-4" id="about-description">
-              Lorem ipsum dolor sit amet consectetur architecto magni,
-              dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias.
-              Tempore ducimus molestiae in dolore enim.
-              Lorem ipsum dolor sit amet consectetur architecto magni,
-              dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias.
-              Tempore ducimus molestiae in dolore enim.
-              Lorem ipsum dolor sit amet consectetur architecto magni,
-              dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias.
-              Tempore ducimus molestiae in dolore enim.
-              Lorem ipsum dolor sit amet consectetur architecto magni,
-              dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias.
-              Tempore ducimus molestiae in dolore enim.
+              The first thing I would mention about myself is that I believe my intense curiosity has taken me to many places. This is how I studied and experienced different subjects such as: martial arts, music, body awareness, metalearning, magic cubes, and technology. This is also how I started playing the violin in a social project at the age of 13, and quickly won several scholarships and opportunities that took me from the countryside of Minas Gerais to a bachelor's degree in violin at University of São Paulo (being the first person in my family to enter a university), to a festival in Italy, and to a Master's Degree with a 100% scholarship plus a monthly allowance in Canada.
+              While living in Canada during the pandemic, I opened an online music school with twelve other teachers, where I had created a new method of asynchronous lessons with more frequent and shorter interactions. That was when I started to investigate tools and study about technologies. My first contact with programming was love at first sight! It seemed like something that united all my curiosities and search for challenging stimuli in one place. 
+              Since then, I have been falling more and more in love with developing solutions. I started my studies as a Full Stack Web Developer at Trybe in January 2022, where I will finish my 1500+ hours of classes and 30+ projects in the beginning of January 2023.
+              Besides the activities I already mentioned, I really enjoy watching series and movies, going to the gym, traveling and spending quality time with my family and friends.
             </p>
           </div>
         </div>
@@ -116,7 +111,7 @@
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg">
                       <img alt="Icon-Mysql" height="45rem" width="45rem"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
-                      <p class="lead">Tests</p>
+                      <p class="lead" id="tests">Tests</p>
                       <img alt="Icon-Jest" height="45rem" width="45rem"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg">
                       <img alt="Icon-Mocha" height="45rem" width="45rem"
@@ -137,20 +132,19 @@
         <div class="row text-center mt-5">
           <h1 class="display-3 fw-bold text-capitalize" id="projects-title">Projects</h1>
           <div class="heading-line mb-5"></div>
-          <p class="lead" id="projects-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam obcaecati? Ab cumque
-            velit odio mollitia, dolorem eveniet rerum voluptatibus. Nostrum quis sapiente nesciunt vero voluptate
-            ducimus optio, temporibus atque!</p>
+          <p class="lead" id="projects-description">Here are some of the projects I have developed:</p>
         </div>
         <div>
           <div class="row mt-5">
             <div class="col-lg-4 col-md-6">
               <div class="projects-box shadow">
-                <img src="images/projects/project-1.png" alt="project 1 image" title="project 1 picture"
+                <img src="images/projects/project-1.png" alt="recipes app image" title="Recipes app"
                   class="img-fluid">
                 <div class="projects-info">
                   <div class="caption">
-                    <h4>project 1</h4>
-                    <p>category project</p>
+                    <h4>Recipes App</h4>
+                    <p>Technologies: React, Context API, Javascript, CSS</p>
+                    <a href="https://github.com/thayarasiqueira/recipes-app" target="_blank">https://github.com/thayarasiqueira/recipes-app</a>
                   </div>
                 </div>
               </div>
@@ -161,8 +155,9 @@
                   class="img-fluid">
                 <div class="projects-info">
                   <div class="caption">
-                    <h4>project 2</h4>
-                    <p>category project</p>
+                    <h4>React Testing Library</h4>
+                    <p>Technologies: React, Jest, RTL</p>
+                    <a href="https://github.com/thayarasiqueira/react-testing-library" target="_blank">https://github.com/thayarasiqueira/react-testing-library</a>
                   </div>
                 </div>
               </div>
@@ -173,13 +168,14 @@
                   class="img-fluid">
                 <div class="projects-info">
                   <div class="caption">
-                    <h4>project 3</h4>
-                    <p>category project</p>
+                    <h4>Online Store</h4>
+                    <p>Technologies: React, Javascript, CSS</p>
+                    <a href="https://github.com/thayarasiqueira/online-store" target="_blank">https://github.com/thayarasiqueira/online-store</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <!-- <div class="col-lg-4 col-md-6">
               <div class="projects-box shadow">
                 <img src="images/projects/project-4.png" alt="project 4 image" title="project 4 picture"
                   class="img-fluid">
@@ -214,7 +210,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
     </section>
@@ -284,8 +280,10 @@
       </div>
     </footer>
 
-
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
 </body>
 
 </html>

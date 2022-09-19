@@ -1,0 +1,10 @@
+@use '../custom' as *;
+
+.download-links{
+    a {
+        text-decoration: none;
+    }
+    li {
+        list-style: none;
+    }
+}

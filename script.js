@@ -25,7 +25,7 @@ const data =  {
         projects: "Projetos",
         contact: "Contato",
         intro: "Olá! Meu nome é Thayara",
-        description: "Sou uma Desenvolvedora Web fascinada por como a tecnlogia molda tudo a nossa volta.",
+        description: "Sou uma Desenvolvedora Web fascinada por como a tecnologia molda tudo a nossa volta.",
         btn1:  "Entre em contato<span><i class=\"fas fa-arrow-right\"></i></span>",
         aboutme: "Sobre mim",
         aboutDescription: `A primeira coisa que eu mencionaria sobre mim é que eu acredito que a minha curiosidade intensa me levou a muitos lugares. Foi assim que estudei e vivenciei temas distintos como: artes marciais, música, consciência corporal, metalearning, cubos mágicos e tecnologia. Também foi assim que começando a tocar violino em um projeto social com 13 anos, rapidamente conquistei diversas bolsas e oportunidades que me levaram do interior de MG a um bacharel em violino na USP (sendo a primeira pessoa da minha família a ingressar em uma universidade), a um festival na Itália e a um mestrado com bolsa prêmio 100% mais ajuda de custo mensal no Canadá.

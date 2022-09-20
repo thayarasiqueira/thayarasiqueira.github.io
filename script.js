@@ -13,7 +13,7 @@ const data =  {
 
         While living in Canada during the pandemic, I opened an online music school with twelve other teachers, where I had created a new method of asynchronous lessons with more frequent and shorter interactions. That was when I started to investigate tools and study about technologies. My first contact with programming was love at first sight! It seemed like something that united all my curiosities and search for challenging stimuli in one place.
 
-        Since then, I have been falling more and more in love with developing solutions. I started my studies as a Full Stack Web Developer at Trybe in January 2022, where I will finish my 1500+ hours of classes and 30+ projects in the beginning of January 2023.
+        Since then, I have been falling more and more in love with developing solutions. I started my studies as a Full Stack Web Developer at Trybe in January 2022, where I will finish my 1500+ hours of classes and 30+ projects at the beginning of January 2023.
         
         Besides the activities I already mentioned, I really enjoy watching series and movies, going to the gym, traveling and spending quality time with my family and friends.`,
         tests: 'Tests',
@@ -79,7 +79,9 @@ const changeLanguage = (arrayValues) => {
     sections.forEach((e, index) => e === btn1 ? e.innerHTML = arrayValues[index] : e.innerText = arrayValues[index]);
 };
 
-window.onload = changeLanguage(textInEn);
+const setTextEn = () => {
+    sections.forEach((e, index) => e === btn1 ? e.innerHTML = textInEn[index] : e.innerText = textInEn[index]);
+}
 
 const checkLanguage = () => {
     englishBtn.addEventListener('click', () => {
@@ -99,3 +101,5 @@ const emailForm = () => {
 }
 
 emailForm();
+
+window.onload = setTextEn();

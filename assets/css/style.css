@@ -10917,19 +10917,17 @@ textarea.form-control-lg {
   background-color: #931ded;
   font-weight: 600;
   font-size: medium;
-  border-radius: 1.2rem;
+  border-radius: 100%;
   border: #fff;
   margin-top: 0.5rem;
-  padding: 0.7rem;
-}
-@media (max-width: 575.98px) {
-  .form button {
-    width: 6rem;
-    margin-top: 0.5rem;
-  }
+  padding: 3%;
 }
 .form button:hover {
   background: linear-gradient(to right, rgba(147, 29, 237, 0.95), rgba(204, 34, 223, 0.4));
+}
+.form button svg {
+  width: 100%;
+  height: 100%;
 }
 .form input {
   width: 87%;

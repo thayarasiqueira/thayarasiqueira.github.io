@@ -79,6 +79,8 @@ const changeLanguage = (arrayValues) => {
     sections.forEach((e, index) => e === btn1 ? e.innerHTML = arrayValues[index] : e.innerText = arrayValues[index]);
 };
 
+window.onload = changeLanguage(textInEn);
+
 const checkLanguage = () => {
     englishBtn.addEventListener('click', () => {
             changeLanguage(textInEn);
@@ -97,5 +99,3 @@ const emailForm = () => {
 }
 
 emailForm();
-
-window.onload = changeLanguage(textInEn);

@@ -22,16 +22,16 @@
         background-color: $primary;
         font-weight: 600;
         font-size: medium;
-        border-radius: 1.2rem;
+        border-radius: 100%;
         border: $white;
         margin-top: 0.5rem;
-        padding: 0.7rem;
-        @include media-breakpoint-down(sm) {
-            width: 6rem;
-            margin-top: 0.5rem;
-        }
+        padding: 5%;
         &:hover {
             @include gradient;
+        }
+        svg {
+            width: 80%;
+            height: 80%;
         }
     }
 

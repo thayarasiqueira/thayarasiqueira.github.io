@@ -10920,14 +10920,14 @@ textarea.form-control-lg {
   border-radius: 100%;
   border: #fff;
   margin-top: 0.5rem;
-  padding: 5%;
+  padding: 3%;
 }
 .form button:hover {
   background: linear-gradient(to right, rgba(147, 29, 237, 0.95), rgba(204, 34, 223, 0.4));
 }
 .form button svg {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
 }
 .form input {
   width: 87%;

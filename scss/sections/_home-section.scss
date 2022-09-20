@@ -25,13 +25,13 @@
         border-radius: 100%;
         border: $white;
         margin-top: 0.5rem;
-        padding: 5%;
+        padding: 3%;
         &:hover {
             @include gradient;
         }
         svg {
-            width: 80%;
-            height: 80%;
+            width: 100%;
+            height: 100%;
         }
     }
 

@@ -97,3 +97,5 @@ const emailForm = () => {
 }
 
 emailForm();
+
+window.onload = changeLanguage(textInEn);

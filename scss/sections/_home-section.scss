@@ -11,11 +11,12 @@
 .form {
     border-radius: 1rem;
     background-color: #fff;
-    padding: 1.9rem;
+    padding: 3rem;
     display: none;
     flex-direction: column;
     align-content: center;
     align-items: center;
+    color: gray;
 
     button {
         color:$white;
@@ -24,7 +25,7 @@
         font-size: medium;
         border-radius: 100%;
         border: $white;
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         padding: 3%;
         &:hover {
             @include gradient;
@@ -36,7 +37,10 @@
     }
 
     input {
-        width: 87%;
+        width: 100%;
         margin-bottom: 0.5rem;
+    }
+    textarea {
+        width: 100%;
     }
 }

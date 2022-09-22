@@ -15,7 +15,7 @@ const data =  {
 
         Since then, I have been falling more and more in love with developing solutions. I started my studies as a Full Stack Web Developer at Trybe in January 2022, where I will finish my 1500+ hours of classes and 30+ projects at the beginning of January 2023.
         
-        Besides the activities I already mentioned, I really enjoy watching series and movies, going to the gym, traveling and spending quality time with my family and friends.`,
+        Besides the activities I already mentioned, I really enjoy watching series and movies, playing RPG video games, board games, going to the gym, traveling, and spending quality time with my family and friends.`,
         tests: 'Tests',
         technologiesTitle: "Tecnologies",
         projectsTitle: "Projects",
@@ -39,7 +39,7 @@ const data =  {
         
         Desde então, venho me apaixonando a cada dia mais por desenvolver soluções. Iniciei meus estudos como Desenvolvedora Web Full Stack na Trybe em janeiro de 2022, onde conluirei minhas mais de 1500 horas de aulas e mais de 30 projetos no início de janeiro de 2023.
 
-        Além das atividades que já mencionei, gosto muito de assistir séries e filmes, ir à academia, viajar e passar tempo de qualidade com minha família e amigos.`,
+        Além das atividades que já mencionei, gosto muito de assistir séries e filmes, jogos de video game RPG, jogos de tabuleiro, ir à academia, viajar e passar tempo de qualidade com minha família e amigos.`,
         tests: 'Testes',
         technologiesTitle: "Tecnologias",
         projectsTitle: "Projetos",

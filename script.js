@@ -8,7 +8,7 @@ const data =  {
         description: "I am a web developer who is passionate about how technology shapes everything around us, and I'm glad to be a small part of it.",
         btn1: "Get in Touch<span><i class=\"fas fa-arrow-right\"></i></span>",
         aboutMe: "About me",
-        aboutDescription: `The first thing I would mention about myself is that I believe my intense curiosity has taken me to many places. This is how I studied and experienced different subjects such as: martial arts, music, body awareness, metalearning, magic cubes, and technology. This is also how I started playing the violin in a social project at the age of 13, and quickly won several scholarships and opportunities that took me from the countryside of Minas Gerais to a bachelor's degree in violin at University of São Paulo (being the first person in my family to enter a university), to a festival in Italy, and to a Master's Degree with a full scholarship in Canada.
+        aboutDescription: `The first thing I would mention about myself is that I believe my intense curiosity has taken me to many places. This is how I studied and experienced different subjects such as: martial arts, music, body awareness, metalearning, rubik's cubes, and technology. This is also how I started playing the violin in a social project at the age of 13, and quickly won several scholarships and opportunities that took me from the countryside of Minas Gerais to a bachelor's degree in violin at University of São Paulo (being the first person in my family to enter a university), to a festival in Italy, and to a Master's Degree with a full scholarship in Canada.
 
         While living in Canada, during the pandemic, I started a project of an online music school with twelve other teachers, where I had created a new method of asynchronous lessons with more frequent and shorter interactions. That was when I started to investigate tools and study about technologies.
         My first contact with programming was love at first sight! It seemed like something that united all my curiosities and search for challenging stimuli in one place.
@@ -79,7 +79,8 @@ const changeLanguage = (arrayValues) => {
 };
 
 const setTextEn = () => {
-    aboutDescription.innerText = textInEn[8];
+    const description = textInEn.filter(e => e.includes('first'))
+    aboutDescription.innerText = description;
 }
 
 const checkLanguage = () => {

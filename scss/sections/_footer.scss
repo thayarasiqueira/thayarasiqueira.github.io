@@ -11,7 +11,7 @@
     font-weight: 600;
 
     &__icon {
-        width: 2rem;
+        width: 10rem;
         stroke: $primary;
 
         @include media-breakpoint-up(sm) {
@@ -34,7 +34,6 @@
 
 .footer-sm {
     a {
-        // color: $white;
         i {
             font-size: 1rem;
             margin-left: 1rem;

@@ -23,8 +23,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
     "autoprefixer": "^10.4.8",
-    "bootstrap": "^5.2.1",
-    "faker": "^5.5.3"
+    "bootstrap": "^5.2.1"
   },
   "type": "module"
 }

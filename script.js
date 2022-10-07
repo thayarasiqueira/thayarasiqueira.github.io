@@ -20,7 +20,6 @@ const data =  {
         technologiesTitle: "Tecnologies",
         projectsTitle: "Projects",
         projectsDescription: "Here are some of the projects I have developed, you can click on the GitHub link on each image to see more details:",
-        address: "Poços de Caldas - MG, Brazil",
         social: "Find me on Social Media",
     },
     pt: {
@@ -44,7 +43,6 @@ const data =  {
         technologiesTitle: "Tecnologias",
         projectsTitle: "Projetos",
         projectsDescription: "Aqui estão alguns dos projetos desenvolvidos por mim, você pode clicar no link do GitHub em cada uma das imagens para ver mais detalhes:",
-        address: "Poços de Caldas - MG, Brasil",
         social: "Conecte-se comigo",
     },
 

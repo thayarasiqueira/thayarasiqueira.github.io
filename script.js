@@ -20,7 +20,7 @@ const data =  {
         technologiesTitle: "Tecnologies",
         projectsTitle: "Projects",
         projectsDescription: "Here are some of the projects I have developed, you can click on the GitHub link on each image to see more details:",
-        social: "Find me on Social Media",
+        address: 'São Paulo - SP, Brazil',
     },
     pt: {
         home: "Início",
@@ -43,7 +43,7 @@ const data =  {
         technologiesTitle: "Tecnologias",
         projectsTitle: "Projetos",
         projectsDescription: "Aqui estão alguns dos projetos desenvolvidos por mim, você pode clicar no link do GitHub em cada uma das imagens para ver mais detalhes:",
-        social: "Conecte-se comigo",
+        address: 'São Paulo - SP, Brasil',
     },
 
 };
@@ -64,13 +64,12 @@ const technologiesTitle = document.querySelector('#technologies-title');
 const projectsTitle = document.querySelector('#projects-title');
 const projectsDescription = document.querySelector('#projects-description');
 const address = document.querySelector('#address');
-const social = document.querySelector('#social');
 const form = document.querySelector('#form');
 
 const { pt, en } = data;
 const textInEn = Object.values(en);
 const textInPt = Object.values(pt);
-const sections = [ home, about, projects, contact, intro, description, btn1, aboutMe, aboutDescription, tests, technologiesTitle, projectsTitle, projectsDescription, address, social ]
+const sections = [ home, about, projects, contact, intro, description, btn1, aboutMe, aboutDescription, tests, technologiesTitle, projectsTitle, projectsDescription, address ]
 
 const changeLanguage = (arrayValues) => {
     sections.forEach((e, index) => e === btn1 ? e.innerHTML = arrayValues[index] : e.innerText = arrayValues[index]);

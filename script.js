@@ -17,15 +17,17 @@ const projectsTitle = document.querySelector('#projects-title');
 const projectsDescription = document.querySelector('#projects-description');
 const address = document.querySelector('#address');
 const form = document.querySelector('#form');
+const nameForm = document.querySelector('#name-form');
+const messageForm = document.querySelector('#message-form');
 
 const { pt, en } = data;
 console.log(data, en, pt);
 const textInEn = Object.values(en);
 const textInPt = Object.values(pt);
-const sections = [ home, about, projects, contact, intro, description, btn1, aboutMe, aboutDescription, tests, technologiesTitle, projectsTitle, projectsDescription, address ]
+const sections = [ home, about, projects, contact, intro, description, btn1, nameForm, messageForm, aboutMe, aboutDescription, tests, technologiesTitle, projectsTitle, projectsDescription, address ]
 
 const changeLanguage = (arrayValues) => {
-    sections.forEach((e, index) => e === btn1 ? e.innerHTML = arrayValues[index] : e.innerText = arrayValues[index]);
+    sections.forEach((e, index) => e === btn1 | e === nameForm | e === messageForm ? e.innerHTML = arrayValues[index] : e.innerText = arrayValues[index]);
 };
 
 const setTextEn = () => {

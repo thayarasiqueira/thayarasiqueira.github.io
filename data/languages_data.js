@@ -7,6 +7,8 @@ const data =  {
         intro: "Hey! I'm Thayara",
         description: "I am a web developer who is passionate about how technology shapes everything around us, and I'm glad to be a small part of it.",
         btn1: "Get in Touch<span><i class=\"fas fa-arrow-right\"></i></span>",
+        nameForm: "Name: <input type=\"text\" name=\"name\" required>",
+        messageForm: "<label for=\"comment\" class=\"text-start\" id=\"message-form\">Message:\n<textarea name=\"comment\" required></textarea>\n</label>",
         aboutMe: "About me",
         aboutDescription: `The first thing I would mention about myself is that I believe my intense curiosity has taken me to many places. This is how I studied and experienced different subjects such as: martial arts, music, body awareness, metalearning, rubik's cubes, and technology. This is also how I started playing the violin in a social project at the age of 13, and quickly won several scholarships and opportunities that took me from the countryside of Minas Gerais to a bachelor's degree in violin at University of São Paulo (being the first person in my family to enter a university), to a festival in Italy, and to a Master's Degree with a full scholarship in Canada.
 
@@ -30,6 +32,8 @@ const data =  {
         intro: "Olá! Meu nome é Thayara",
         description: "Sou uma Desenvolvedora Web fascinada por como a tecnologia molda tudo a nossa volta.",
         btn1:  "Entre em contato<span><i class=\"fas fa-arrow-right\"></i></span>",
+        nameForm: "Nome: <input type=\"text\" name=\"name\" required>",
+        messageForm: "Mensagem: <textarea name=\"comment\" required></textarea>",
         aboutme: "Sobre mim",
         aboutDescription: `A primeira coisa que eu mencionaria sobre mim, é que eu acredito que a minha curiosidade intensa me levou a muitos lugares. Foi assim que estudei e vivenciei temas distintos como: artes marciais, música, consciência corporal, metalearning, cubos mágicos e tecnologia. Também foi assim que começando a tocar violino em um projeto social com 13 anos, rapidamente conquistei diversas bolsas e oportunidades que me levaram do interior de MG a um bacharel em violino na USP (sendo a primeira pessoa da minha família a ingressar em uma universidade), a um festival na Itália e a um mestrado com bolsa prêmio 100% mais ajuda de custo mensal no Canadá.
 

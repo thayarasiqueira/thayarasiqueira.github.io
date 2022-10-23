@@ -21,7 +21,6 @@ const nameForm = document.querySelector('#name-form');
 const messageForm = document.querySelector('#message-form');
 
 const { pt, en } = data;
-console.log(data, en, pt);
 const textInEn = Object.values(en);
 const textInPt = Object.values(pt);
 const sections = [ home, about, projects, contact, intro, description, btn1, nameForm, messageForm, aboutMe, aboutDescription, tests, technologiesTitle, projectsTitle, projectsDescription, address ]
